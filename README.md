@@ -3,8 +3,7 @@
 ## Installation & Configuration
 ### Clone the repository to your local machine:
 ```python
-# Example usage of WOLVES algorithm
-from wolves import WOLVES
+git clone https://github.com/Mingze0111/MM_Test.git
 ```
 ### Dependencies
 To install the required dependencies, please run the following command:
