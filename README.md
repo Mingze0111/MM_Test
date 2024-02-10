@@ -1,6 +1,7 @@
 # WOLVES: Word List Vector for Sentiment
 
 ## Installation & Configuration
+### Clone this program to the local environment:
 
 ### 数据集
 
