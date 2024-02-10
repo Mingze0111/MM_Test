@@ -1,7 +1,7 @@
 # WOLVES: Word List Vector for Sentiment
 
 ## Installation & Configuration
-### Clone this program to the local environment:
+### Clone the repository to your local machine:
 ```python
 # Example usage of WOLVES algorithm
 from wolves import WOLVES
