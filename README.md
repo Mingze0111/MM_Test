@@ -2,7 +2,7 @@
 
 ## Installation & Configuration
 ### Clone the repository to your local machine:
-```python
+```bash
 git clone https://github.com/Mingze0111/MM_Test.git
 ```
 ### Dependencies
