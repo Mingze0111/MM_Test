@@ -2,6 +2,12 @@
 
 ## Installation & Configuration
 ### Clone this program to the local environment:
+```python
+# Example usage of WOLVES algorithm
+from wolves import WOLVES
+
+
+
 
 ### 数据集
 
