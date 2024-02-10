@@ -6,7 +6,7 @@
 # Example usage of WOLVES algorithm
 from wolves import WOLVES
 ```
-###Dependencies
+### Dependencies
 To install the required dependencies, please run the following command:
 ```python
 pip install -r requirements.txt
