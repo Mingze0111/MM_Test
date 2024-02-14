@@ -30,5 +30,5 @@ pip install -r requirements.txt
 | H4_positive                           |Positive words in the H4 dictionary|
 | H4_negative                           |Negative words in the H4 dictionary|
 | LoughranMcDonald_MasterDictionary_2020.csv |Loughran-McDonald Dictionary|
-| mda_tf.csv                           |Management's discussion and analysis (MD&A) sections of the annual report|
-| index.csv                            |Index information for 10-Ks|
+| mda_tf.csv                           |Swntiment words data in the Form 10Ks|
+| index.csv                            |Index and year information for Form 10-Ks|
