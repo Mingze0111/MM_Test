@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 
 ## Citation
-```bash
+```shell
 @article{-,  
     author = {Jiexin Zheng, Ka Chung Ng, Rong Zheng and Kar Yan Tam},  
     title = {The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach},  
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```
 
 ## Contact
-```bash
+```shell
 jzhengas@connect.ust.hk  
 kc-boris.ng@polyu.edu.hk  
 rzheng@ust.hk  
