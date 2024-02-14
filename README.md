@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### 数据集
 
-| 数据集名称                               | 描述                                      |
+| Dataset                               | description                              |
 |---------------------------------------|------------------------------------------|
 | LM_positive                           |Positive words in the Loughran and McDonald dictionary|
 | LM_negative                           |Negative words in the Loughran and McDonald dictionary|
