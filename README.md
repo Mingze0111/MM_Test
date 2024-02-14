@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-### Functions
+### Key Functions
 ```python
 def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos')
 ```
