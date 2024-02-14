@@ -36,17 +36,17 @@ pip install -r requirements.txt
 
 
 ## Citation
-@article{-,
-    author = {Jiexin Zheng, Ka Chung Ng, Rong Zheng and Kar Yan Tam}, 
-    title = {The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach}, 
-    journal = {-},
-    volume = {n/a},
-    number = {n/a},
-    pages = {},
-    keywords = {word embedding, word list, sentiment evolution, textual analysis, strategic communication},
-    doi = {-},
-    url = {-},
-    eprint = {-},
+@article{-,  
+    author = {Jiexin Zheng, Ka Chung Ng, Rong Zheng and Kar Yan Tam},  
+    title = {The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach},  
+    journal = {-},  
+    volume = {n/a},  
+    number = {n/a},  
+    pages = {},  
+    keywords = {word embedding, word list, sentiment evolution, textual analysis, strategic communication},  
+    doi = {-},  
+    url = {-},  
+    eprint = {-},  
 }
 
 ## Contact
