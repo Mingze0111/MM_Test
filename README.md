@@ -30,12 +30,13 @@ pip install -r requirements.txt
 | H4_positive                           |Positive words in the H4 dictionary|
 | H4_negative                           |Negative words in the H4 dictionary|
 | LoughranMcDonald_MasterDictionary_2020.csv |Loughran-McDonald Dictionary|
-| mda_tf.csv                           |Swntiment words data in the Form 10Ks|
+| mda_tf.csv                           |Sentiment words data in the Form 10Ks|
 | index.csv                            |Index and year information for Form 10-Ks|
 
 
 
 ## Citation
+```bash
 @article{-,  
     author = {Jiexin Zheng, Ka Chung Ng, Rong Zheng and Kar Yan Tam},  
     title = {The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach},  
@@ -48,9 +49,15 @@ pip install -r requirements.txt
     url = {-},  
     eprint = {-},  
 }
+```
 
 ## Contact
-jzhengas@connect.ust.hk
-kc-boris.ng@polyu.edu.hk
-rzheng@ust.hk
-kytam@ust.hk
+```bash
+jzhengas@connect.ust.hk  
+kc-boris.ng@polyu.edu.hk  
+rzheng@ust.hk  
+kytam@ust.hk  
+```
+
+
+
