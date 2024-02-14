@@ -35,7 +35,7 @@ def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benc
 
 
 ### Application
-```python
+```bash
 python main.py
 ```
 
