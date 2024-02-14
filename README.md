@@ -9,16 +9,22 @@
 
 
 
-## Installation & Configuration
+## Installation
 ### Clone the repository to your local machine:
 ```bash
 git clone https://github.com/Mingze0111/MM_Test.git
 ```
 ### Dependencies
 To install the required dependencies, please run the following command:
-```python
+```bash
 pip install -r requirements.txt
 ```
+
+## Usage
+```python
+python main.py
+```
+
 
 
 ## Dataset Information
@@ -58,6 +64,10 @@ kc-boris.ng@polyu.edu.hk
 rzheng@ust.hk  
 kytam@ust.hk  
 ```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 
