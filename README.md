@@ -48,3 +48,9 @@ pip install -r requirements.txt
     url = {-},
     eprint = {-},
 }
+
+## Contact
+jzhengas@connect.ust.hk
+kc-boris.ng@polyu.edu.hk
+rzheng@ust.hk
+kytam@ust.hk
