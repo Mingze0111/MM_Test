@@ -1,7 +1,5 @@
 # WOLVES: Word List Vector for Sentiment
 
-The official implementation of paper "[The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach] ((https://onlinelibrary.wiley.com/doi/full/10.1111/poms.13959))". 
-
 The official implementation of paper "[The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/poms.13959)". 
 
 
