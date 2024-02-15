@@ -62,7 +62,7 @@ def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benc
 
 The `get_year_bias_data_dict` function is designed to calculate bias metrics and cluster data for a given word embedding model across different years. This function leverages word embeddings to quantify semantic relationships between words and provides insights into how word meanings evolve over time.  
 The function returns the results as DataFrames and dictionaries for further analysis and visualization.  
-Example Usage:  
+### Example Usage:  
 ```python
 pos_cluster_data, neg_cluster_data, pos_bias_data, neg_bias_data, avg_distances = get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict, neg_benchmark_dict, similarity='cos')
 ```
