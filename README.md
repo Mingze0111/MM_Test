@@ -1,6 +1,7 @@
 # WOLVES: Word List Vector for Sentiment
 
 The **WOLVES** (Word List Vector for Sentiment) algorithm is an innovative sentiment analysis algorithm that combines manually defined lists of sentiment words with word embedding techniques to quantify the change in text sentiment over time.WOLVES dynamically updates the sentiment word list based on changing semantics and sentiment intensity, thus solving the problem of static sentiment analysis models. WOLVES can dynamically update the sentiment lexicon according to changing semantics and sentiment intensity, thus solving the limitations of static sentiment analysis models. In addition, WOLVES can help extract valuable business intelligence from financial texts, which provides powerful support for business decision-making.  
+</br>
 The official implementation of paper "[The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/poms.13959)". 
 
 
