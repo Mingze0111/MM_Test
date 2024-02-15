@@ -5,6 +5,21 @@ The **WOLVES** (Word List Vector for Sentiment) algorithm is an innovative senti
 The official implementation of paper "[The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/poms.13959)". 
 
 
+## Dataset Information
+
+| Dataset                               | description                              |
+|---------------------------------------|------------------------------------------|
+| LM_positive                           |Positive words in the Loughran and McDonald dictionary|
+| LM_negative                           |Negative words in the Loughran and McDonald dictionary|
+| H4_positive                           |Positive words in the H4 dictionary|
+| H4_negative                           |Negative words in the H4 dictionary|
+| LoughranMcDonald_MasterDictionary_2020.csv |Loughran-McDonald Dictionary|
+| mda_tf.csv                           |Sentiment words data in the Form 10Ks|
+| index.csv                            |Index and year information for Form 10-Ks|
+
+
+
+
 
 ## Installation
 ### Clone the repository to your local machine:
