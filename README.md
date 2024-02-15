@@ -97,12 +97,15 @@ pos_intensity, neg_intensity = sentiment_word_intensity(model, positive_words, n
 ```
 
 
-### Application
+### Application  
+You can run the code to apply sentiment analysis techniques to financial text data using word embeddings.  
+
 ```bash
 python main.py
 ```
 
-
+The generated CSV file (mda_sentiment.csv) contains sentiment trends categorized by top, middle, and bottom quantiles.  
+These trends provide insights into the changing sentiment dynamics within financial documents, which can be further analyzed to understand market reactions and managerial communication strategies.
 
 
 ## Citation
