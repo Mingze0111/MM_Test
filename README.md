@@ -69,7 +69,7 @@ pos_cluster_data, neg_cluster_data, pos_bias_data, neg_bias_data, avg_distances 
 
 
 </br>
-
+Calculate the sentiment intensity of positive and negative words based on word embeddings:
 
 ```python
 def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos'):
