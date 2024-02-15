@@ -34,12 +34,14 @@ pip install -r requirements.txt
 
 ## Usage
 ### Key Functions
+The get_year_bias_data_dict function is designed to calculate bias metrics and cluster data for a given word embedding model across different years. This function leverages word embeddings to quantify semantic relationships between words and provides insights into how word meanings evolve over time.
 ```python
 def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos')
 ```
 
 ```python
-def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict, neg_benchmark_dict, similarity='cos', year_cols=None)
+def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict,
+neg_benchmark_dict, similarity='cos', year_cols=None)
 ```
 
 
