@@ -2,15 +2,6 @@
 
 The official implementation of paper "[The Effects of Sentiment Evolution in Financial Texts: A Word Embedding Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/poms.13959)". 
 
-![Gitea Stars](https://img.shields.io/gitea/stars/:user/:repo)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Mingze0111/MM_Test)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mingze0111/MM_Test?include_prereleases)
-![GitHub last commit](https://img.shields.io/badge/last_commit-Feb_2024-yellow)
-![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
-![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
-
 
 
 ## Installation
