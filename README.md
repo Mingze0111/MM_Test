@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-### Key Functions
+### Key Functions:
 
 ```python
 
