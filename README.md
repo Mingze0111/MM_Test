@@ -51,19 +51,6 @@ python main.py
 
 
 
-## Dataset Information
-
-| Dataset                               | description                              |
-|---------------------------------------|------------------------------------------|
-| LM_positive                           |Positive words in the Loughran and McDonald dictionary|
-| LM_negative                           |Negative words in the Loughran and McDonald dictionary|
-| H4_positive                           |Positive words in the H4 dictionary|
-| H4_negative                           |Negative words in the H4 dictionary|
-| LoughranMcDonald_MasterDictionary_2020.csv |Loughran-McDonald Dictionary|
-| mda_tf.csv                           |Sentiment words data in the Form 10Ks|
-| index.csv                            |Index and year information for Form 10-Ks|
-
-
 
 ## Citation
 ```
