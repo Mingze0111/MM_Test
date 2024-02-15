@@ -4,6 +4,7 @@ The official implementation of paper "[The Effects of Sentiment Evolution in Fin
 
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
+[![Stargazers][stars-shield]][stars-url]
 ![GitHub last commit](https://img.shields.io/badge/last_commit-Feb_2024-yellow)
 ![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
