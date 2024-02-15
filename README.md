@@ -69,13 +69,6 @@ pos_cluster_data, neg_cluster_data, pos_bias_data, neg_bias_data, avg_distances 
 
 
 
-```python
-def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict,
-neg_benchmark_dict, similarity='cos', year_cols=None)
-```
-
-
-
 ### Application
 ```bash
 python main.py
