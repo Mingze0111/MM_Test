@@ -88,7 +88,8 @@ def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos'):
     """
 ```
 
-The `sentiment_word_intensity` function calculates the sentiment intensity of positive and negative words based on their embeddings in the word embedding model. By comparing the distances between word embeddings and centroids of positive and negative word clusters, this function provides insights into the strength of sentiment conveyed by each word.
+The `sentiment_word_intensity` function calculates the sentiment intensity of positive and negative words based on their embeddings in the word embedding model. By comparing the distances between word embeddings and centroids of positive and negative word clusters, this function provides insights into the strength of sentiment conveyed by each word.  
+The function returns the results as Pandas Series, with words as index and sentiment intensity scores as values.
 
 #### Example Usage:  
 ```python
