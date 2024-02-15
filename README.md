@@ -34,10 +34,40 @@ pip install -r requirements.txt
 
 ## Usage
 ### Key Functions
-The `get_year_bias_data_dict` function is designed to calculate bias metrics and cluster data for a given word embedding model across different years. This function leverages word embeddings to quantify semantic relationships between words and provides insights into how word meanings evolve over time.
+
 ```python
-def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos')
+
+def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict, neg_benchmark_dict,
+                            similarity='cos', year_cols=None):
+    """
+    Calculate bias metrics and cluster data for a given word embedding model across different years.
+
+    Parameters:
+    - model_dict (dict): A dictionary containing word embedding models for different years.
+    - test_pos_words (list): List of positive test words.
+    - test_neg_words (list): List of negative test words.
+    - pos_benchmark_dict (dict): A dictionary containing positive benchmark words for each year.
+    - neg_benchmark_dict (dict): A dictionary containing negative benchmark words for each year.
+    - similarity (str, optional): Similarity measure to be used ('cos' for cosine similarity or 'euc' for Euclidean distance). Defaults to 'cos'.
+    - year_cols (list, optional): List of years to consider. Defaults to None.
+
+    Returns:
+    - mc_pos_cluster_data_pd (DataFrame): DataFrame containing cluster data for positive test words.
+    - mc_neg_cluster_data_pd (DataFrame): DataFrame containing cluster data for negative test words.
+    - mc_pos_bias_data_pd (DataFrame): DataFrame containing bias metrics for positive test words.
+    - mc_neg_bias_data_pd (DataFrame): DataFrame containing bias metrics for negative test words.
+    - average_distance_dict (dict): Dictionary containing average distances between positive and negative reference vectors for each year.
+    """
 ```
+
+The `get_year_bias_data_dict` function is designed to calculate bias metrics and cluster data for a given word embedding model across different years. This function leverages word embeddings to quantify semantic relationships between words and provides insights into how word meanings evolve over time.  
+The function returns the results as DataFrames and dictionaries for further analysis and visualization.  
+Example Usage:  
+```python
+pos_cluster_data, neg_cluster_data, pos_bias_data, neg_bias_data, avg_distances = get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict, neg_benchmark_dict, similarity='cos')
+```
+
+
 
 ```python
 def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict,
