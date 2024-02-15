@@ -40,7 +40,7 @@ pip install -r requirements.txt
 def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict, neg_benchmark_dict,
                             similarity='cos', year_cols=None):
     """
-    Calculate bias metrics and cluster data for a given word embedding model across different years.
+    Calculate bias data and cluster data for a given word embedding model across different years.
 
     Parameters:
     - model_dict (dict): A dictionary containing word embedding models for different years.
@@ -67,6 +67,33 @@ The function returns the results as DataFrames and dictionaries for further anal
 pos_cluster_data, neg_cluster_data, pos_bias_data, neg_bias_data, avg_distances = get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict, neg_benchmark_dict, similarity='cos')
 ```
 
+
+
+
+
+```python
+def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos'):
+    """
+    Calculate the sentiment intensity of positive and negative words based on their embeddings in a word embedding model.
+
+    Parameters:
+    - model (Word2Vec): Word embedding model.
+    - pos_list (list): List of positive words.
+    - neg_list (list): List of negative words.
+    - similarity (str, optional): Similarity measure to be used ('cos' for cosine similarity or 'euc' for Euclidean distance). Defaults to 'cos'.
+
+    Returns:
+    - pos_intensity (Series): Series containing sentiment intensity scores for positive words.
+    - neg_intensity (Series): Series containing sentiment intensity scores for negative words.
+    """
+```
+
+The `sentiment_word_intensity` function calculates the sentiment intensity of positive and negative words based on their embeddings in the word embedding model. By comparing the distances between word embeddings and centroids of positive and negative word clusters, this function provides insights into the strength of sentiment conveyed by each word.
+
+#### Example Usage:  
+```python
+pos_intensity, neg_intensity = sentiment_word_intensity(model, positive_words, negative_words, similarity='cos')
+```
 
 
 ### Application
