@@ -35,6 +35,36 @@ pip install -r requirements.txt
 ## Usage
 ### Key Functions:
 
+Calculate the sentiment intensity of positive and negative words based on word embeddings:
+
+```python
+def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos'):
+    """
+    Calculate the sentiment intensity of positive and negative words based on their embeddings in a word embedding model.
+
+    Parameters:
+    - model (Word2Vec): Word embedding model.
+    - pos_list (list): List of positive words.
+    - neg_list (list): List of negative words.
+    - similarity (str, optional): Similarity measure to be used ('cos' for cosine similarity or 'euc' for Euclidean distance). Defaults to 'cos'.
+
+    Returns:
+    - pos_intensity (Series): Series containing sentiment intensity scores for positive words.
+    - neg_intensity (Series): Series containing sentiment intensity scores for negative words.
+    """
+```
+
+The `sentiment_word_intensity` function calculates the sentiment intensity of positive and negative words based on their embeddings in the word embedding model. By comparing the distances between word embeddings and centroids of positive and negative word clusters, this function provides insights into the strength of sentiment conveyed by each word.  
+The function returns the results as Pandas Series, with words as index and sentiment intensity scores as values.
+
+#### Example Usage:  
+```python
+pos_intensity, neg_intensity = sentiment_word_intensity(model, positive_words, negative_words, similarity='cos')
+```
+
+</br>
+
+
 ```python
 
 def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict, neg_benchmark_dict,
@@ -68,33 +98,7 @@ pos_cluster_data, neg_cluster_data, pos_bias_data, neg_bias_data, avg_distances 
 ```
 
 
-</br>
-Calculate the sentiment intensity of positive and negative words based on word embeddings:
 
-```python
-def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos'):
-    """
-    Calculate the sentiment intensity of positive and negative words based on their embeddings in a word embedding model.
-
-    Parameters:
-    - model (Word2Vec): Word embedding model.
-    - pos_list (list): List of positive words.
-    - neg_list (list): List of negative words.
-    - similarity (str, optional): Similarity measure to be used ('cos' for cosine similarity or 'euc' for Euclidean distance). Defaults to 'cos'.
-
-    Returns:
-    - pos_intensity (Series): Series containing sentiment intensity scores for positive words.
-    - neg_intensity (Series): Series containing sentiment intensity scores for negative words.
-    """
-```
-
-The `sentiment_word_intensity` function calculates the sentiment intensity of positive and negative words based on their embeddings in the word embedding model. By comparing the distances between word embeddings and centroids of positive and negative word clusters, this function provides insights into the strength of sentiment conveyed by each word.  
-The function returns the results as Pandas Series, with words as index and sentiment intensity scores as values.
-
-#### Example Usage:  
-```python
-pos_intensity, neg_intensity = sentiment_word_intensity(model, positive_words, negative_words, similarity='cos')
-```
 
 
 ### Application  
