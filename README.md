@@ -100,7 +100,7 @@ pos_cluster_data, neg_cluster_data, pos_bias_data, neg_bias_data, avg_distances 
 
 
 ### Application  
-You can run the code to apply sentiment analysis techniques to financial text data using word embeddings.  
+You can run the code to apply sentiment analysis techniques to financial text data using word embeddings:
 
 ```bash
 python main.py
