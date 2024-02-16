@@ -7,7 +7,7 @@ The official implementation of paper "[The Effects of Sentiment Evolution in Fin
 
 ## Dataset Information
 
-| Dataset                               | description                              |
+| Dataset                               | Description                              |
 |---------------------------------------|------------------------------------------|
 | LM_positive                           |Positive words in the Loughran and McDonald dictionary|
 | LM_negative                           |Negative words in the Loughran and McDonald dictionary|
