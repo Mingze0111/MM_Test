@@ -40,7 +40,6 @@ Calculate the sentiment intensity of positive and negative words based on word e
 ```python
 def sentiment_word_intensity(model, pos_list, neg_list, similarity='cos'):
     """
-    Calculate the sentiment intensity of positive and negative words based on their embeddings in a word embedding model.
 
     Parameters:
     - model (Word2Vec): Word embedding model.
@@ -64,13 +63,12 @@ pos_intensity, neg_intensity = sentiment_word_intensity(model, positive_words, n
 
 </br>
 
-
+Calculate bias data and cluster data for a given word embedding model across different years:
 ```python
 
 def get_year_bias_data_dict(model_dict, test_pos_words, test_neg_words, pos_benchmark_dict, neg_benchmark_dict,
                             similarity='cos', year_cols=None):
     """
-    Calculate bias data and cluster data for a given word embedding model across different years.
 
     Parameters:
     - model_dict (dict): A dictionary containing word embedding models for different years.
